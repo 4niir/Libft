@@ -21,7 +21,7 @@ bonus: all
 	@$(CC) $(W) $(CBONUS)
 	@ar -rc $(NAME) $(OBONUS)
 clean:
-	@rm -f $(OFILES) $(OBONUS) *.o
+	@rm -f $(OFILES) $(OBONUS) 
 fclean : clean
 	@rm -f $(NAME)
 re : fclean all
